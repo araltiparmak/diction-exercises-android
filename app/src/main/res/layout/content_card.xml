@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/viewRoot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/pageMarginAndOffset"
+            android:layout_marginRight="@dimen/pageMarginAndOffset"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="15dp"
+            card_view:cardCornerRadius="15dp">
+
+        <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:isScrollContainer="true"
+                android:scrollbars="vertical"
+                android:textSize="24sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

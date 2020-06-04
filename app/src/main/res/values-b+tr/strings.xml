@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Diksiyon Çalışmaları</string>
+
+    <string name="exercises">Egzersizler</string>
+    <string name="twisters">Tekerlemeler</string>
+    <string name="settings">Ayarlar</string>
+    <string name="changeLang">Dil Değiştir</string>
+    <string name="selected_lang">Seçilen dil: </string>
+    <string name="cancel">İptal</string>
+
+    <string name="sound">Ses</string>
+    <string name="breath">Nefes</string>
+    <string name="cheek">Yanak</string>
+    <string name="chin">Çene</string>
+    <string name="lip">Dudak</string>
+    <string name="tongue">Dil</string>
+</resources>

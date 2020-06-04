@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".activity.Exercises">
+
+    <Button
+            android:id="@+id/cheek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_background"
+            android:onClick="exercise"
+            android:tag="cheek"
+            android:text="@string/cheek"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp" />
+
+    <Button
+            android:id="@+id/chin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_background"
+            android:onClick="exercise"
+            android:tag="chin"
+            android:text="@string/chin"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp" />
+
+    <Button
+            android:id="@+id/tongue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_background"
+            android:onClick="exercise"
+            android:tag="tongue"
+            android:text="@string/tongue"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp" />
+
+    <Button
+            android:id="@+id/lip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_background"
+            android:onClick="exercise"
+            android:tag="lip"
+            android:text="@string/lip"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp" />
+
+    <Button
+            android:id="@+id/breath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_background"
+            android:onClick="exercise"
+            android:tag="breath"
+            android:text="@string/breath"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp" />
+
+    <Button
+            android:id="@+id/sound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_background"
+            android:onClick="exercise"
+            android:tag="sound"
+            android:text="@string/sound"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp" />
+
+</LinearLayout>

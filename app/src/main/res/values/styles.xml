@@ -1,0 +1,17 @@
+<resources>
+
+    <!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--&lt;!&ndash;        <item name="colorPrimary">@color/primaryColor</item>&ndash;&gt;-->
+    <!--        <item name="colorPrimaryDark">@color/primaryDarkColor</item>-->
+    <!--&lt;!&ndash;        <item name="colorAccent">@color/</item>&ndash;&gt;-->
+    <!--    </style>-->
+
+    <style name="AppTheme2" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:textAllCaps">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <!--        <color name="primaryColor">#27496d</color>-->
+        <!--        <color name="primaryLightColor">#3d5a80</color>-->
+    </style>
+</resources>

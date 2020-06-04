@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorGradientStart</color>
+    <color name="colorGradientStart">#3f54fb</color>
+    <color name="colorGradientEnd">#00beea</color>
+    <color name="primaryDarkColor">#142850</color>
+    <color name="secondaryColor">#3f54fb</color>
+</resources>
